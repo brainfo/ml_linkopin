@@ -1,0 +1,20 @@
+name: medbioinfo_deep_learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.6
+  - jupyter
+  - matplotlib
+  - pandas
+  - keras>=2.4.3
+  - tensorflow>=2.0.0
+  - numpy==1.19.5
+  - pydot
+  - graphviz
+  - scikit-learn
+  - mpld3
+  - wget
+  - nb_conda
+  - nb_conda_kernels
+  - rise
